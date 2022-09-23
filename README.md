@@ -1,4 +1,4 @@
-# The Rust Programming Language Book Project
+# The Rust Programming Language Book Projects
 As I go through the book, I'm putting all my code here.
 ## Commands
 ### rustc/other
