@@ -11,6 +11,7 @@ As I go through the book, I'm putting all my code here.
 - `echo $PATH` to check if Rust is in your execution path
 - `rustup update` to check for updates and install them
 - `rustup self uninstall` to remove Rust from your system
+- `git status --ignored -uall` (nothing to do with Rust, but still interesting)
 ### Cargo
 - `cargo new` to create a new project
 - `cargo build` to compile the source code
