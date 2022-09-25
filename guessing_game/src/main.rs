@@ -28,7 +28,7 @@ fn main() {
         // &guess would be an immutable reference
         // we need a mutable one, so we're using '&mut guess'
 
-        .expect("Failed to read line");
+        //.expect("Failed to read line");
         // read_line returns a Result enum (Ok or Err)
         // this enum has an 'expect' method
         // if the value is Err, the string passed to 'expect' will be printed
