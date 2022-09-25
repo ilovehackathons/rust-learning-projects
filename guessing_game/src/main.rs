@@ -23,12 +23,12 @@ fn main() {
 
     io::stdin() // call the 'stdin' func of the 'io' module
     //std::io::stdio // no need the import 'io'
-        .read_line(&mut guess); // call the read_line method
+        .read_line(&mut guess) // call the read_line method
         // & indicates that the argument is a reference
         // &guess would be an immutable reference
         // we need a mutable one, so we're using '&mut guess'
 
-        //.expect("Failed to read line");
+        .expect("Failed to read line");
         // read_line returns a Result enum (Ok or Err)
         // this enum has an 'expect' method
         // if the value is Err, the string passed to 'expect' will be printed
