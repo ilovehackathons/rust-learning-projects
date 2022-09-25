@@ -1,3 +1,5 @@
+// This comment doesn't recompile the dependencies.
+
 use std::io;
 // 'std' stands for the standard library
 // 'io' stands for the input/output library (module)
