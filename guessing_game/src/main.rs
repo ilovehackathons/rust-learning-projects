@@ -17,7 +17,9 @@ fn main() {
     // 'new' returns a new string instance
     // :: indicates that 'new' is an associated function of String
 
-    let apples = 5; // immutable
+    //let apples = 5; // immutable
+    // prefix a variable with _ to disable the unused variable warning
+
     // Rust's 'let' is equivalent to JS's 'const' (the value is immutable)
     //let mut bananas = 5; // mutable
 
