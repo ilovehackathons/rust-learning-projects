@@ -17,7 +17,7 @@ fn main() {
     // 'new' returns a new string instance
     // :: indicates that 'new' is an associated function of String
 
-    //let apples = 5; // immutable
+    let apples = 5; // immutable
     // Rust's 'let' is equivalent to JS's 'const' (the value is immutable)
     //let mut bananas = 5; // mutable
 
@@ -37,5 +37,5 @@ fn main() {
     //io:stdin().read_line(&mut guess).expect("Failed to read line");
     // more difficult to read, but would work too
 
-    println!("You guessed: {guess}{guess}");
+    println!("You guessed: {guess}{apples}");
 }
