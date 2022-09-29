@@ -1,5 +1,5 @@
 # The Rust Programming Language Book Projects
-As I go through the book, I'm putting all my code here.
+As I go through The Rust Programming Language book, I'm putting all my code here.
 ## Commands
 ### rustc/other
 - `rustc <filename>.rs` to compile a file
